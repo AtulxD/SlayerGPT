@@ -1,48 +1,44 @@
 {
-    "name": "chatgpt",
-    "description": "",
-    "logo": "",
+   "name": "ChatGPT Bot",
+   "description": "Telegram ChatGPT Bot",
+   "repository": "https://github.com/BashIND/chatgpt-bot",
+   "logo": "https://graph.org/file/239b4f1451ec21f30aafa.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "TeamKillerX",
     "chatgpt",
     "telegram-bot",
     "pyrogram"
-    ],
-    "stack": "container",
-    "env": {
+   ],
+   "repository": "https://github.com/BashIND/chatgpt-bot",
+   "website": "https://github.com/BashIND",
+   "success_url": "https://t.me/fenixs_slayer",
+   "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Fill Api ID Take this value from My.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Fill Api hash Take this value from My.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "Bot Token",
         "value": "",
         "required": true
-      },
+      },      
       "OPENAI_API": {
-        "description": "get api key : openai.com",
-        "value": "",
-        "required": true
+            "description": "get api key : openai.com",
+            "value": "",
+            "required": true  
       }
-    },
+   },
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-      }
-  }
+        {
+          "url": "heroku/python"
+        }
+    ]
+}
