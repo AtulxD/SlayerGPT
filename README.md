@@ -35,7 +35,7 @@
 9. <b>Deploy Main branch.</b>
 
 ### Deploy to Heroku
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/TeamKillerX/chatgpt-bot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/BashIND/chatgpt-bot)
 
 
 ### Tutorial Vps
